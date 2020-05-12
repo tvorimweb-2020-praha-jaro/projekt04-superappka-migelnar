@@ -18,7 +18,7 @@ body {
     margin: 0;
     background-color: #e5e5e5;
     font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -28,6 +28,131 @@ body {
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.zahlavi {
+    background: url(images/pozadi.jpg);
+    background-position: center;
+    position: relative;
+    object-fit: fill;
+    width: 960px;
+    padding: 40px;
+    overflow: hidden;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.nadpis {
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+h1 {
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #25133d;
+}
+
+.podnadpis {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+ul {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.tlacit {
+    padding-left: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+.lista a {
+    display: block;
+    color: #25133d;
+    text-align: center;
+    padding: 10px 30px 20px 30px;
+    text-decoration: none;
+  }
+
+.lista a:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tlacitka a {
+    border-color:white;
+    border-radius: 6%;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px 14px 30px;
+    text-decoration: none;
+    margin: 20px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.tlacitka a:hover {
+    background-color: #25133d;
+}
+
+
+.telefon {
+    position: absolute;
+	right: -15px;
+    bottom: -8px;
+}
+
+.kolecko {
+    right: 25px;
+	bottom: -25px;
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.kontejner {
+    display: flex;
+}
+
+.sloupec {
+    text-align: center;
+    padding: 2em;
+    
+}
+
+.zapati {
+    text-align: center;
+    background-color: #25133d;
+    color: white;
+    text-decoration: thin;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
